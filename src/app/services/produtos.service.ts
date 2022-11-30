@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
 import { EMPTY, Observable } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
 import { catchError, map } from 'rxjs/operators';
-//import { environment } from 'src/environments/environment';
-import { environment } from './../../environments/environment.prod';
+import { environment } from 'src/environments/environment';
+//import { environment } from './../../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
